@@ -2,8 +2,8 @@ CREATE
     ALGORITHM = UNDEFINED 
     DEFINER = `root`@`localhost` 
     SQL SECURITY DEFINER
-VIEW `overallPostsNumber` AS
+VIEW `overall_posts_number` AS
     SELECT 
-        COUNT(`post`.`post_id`) AS `overallPostsNumber`
+        COUNT(`post`.`post_id`) AS `overall_posts_number`
     FROM
         `post`
