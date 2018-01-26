@@ -1,3 +1,2 @@
-SELECT 
-COUNT(post_id) overall_posts_number
+SELECT COUNT(post_id) overall_posts_number
 FROM post;
